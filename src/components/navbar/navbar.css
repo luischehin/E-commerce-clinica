@@ -1,0 +1,26 @@
+.navbar {
+    padding: 30px;
+}
+
+.formbuscador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio {
+    margin-left: 30px;
+}
+
+.buscador {
+    width: 600px;
+    margin-right: 10px;
+}
+
+.botonbuscar {
+    margin-right: 250px;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
