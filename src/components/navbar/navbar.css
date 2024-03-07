@@ -1,5 +1,31 @@
 .navbar {
     padding: 30px;
+    background-color: #9cefea;
+}
+
+.nav-link {
+    border: 1px solid #181818;
+    /* Agrega bordes */
+    padding: 8px 8px;
+    /* Ajusta el padding según sea necesario */
+    transition: transform 0.3s ease;
+    /* Agrega una transición para el efecto de zoom */
+
+}
+
+.session {
+    margin-left: 5px;
+
+}
+
+.session:hover {
+    color: #0047AB;
+    /* Cambia el color del texto a un azul más oscuro cuando pasas el mouse sobre él */
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    /* Aplica un efecto de zoom al pasar el mouse */
 }
 
 .formbuscador {

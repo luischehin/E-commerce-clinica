@@ -1,0 +1,31 @@
+.card {
+    text-align: center;
+    align-items: center;
+}
+
+.list-group-item {
+
+    border: 1px solid #9cefea;
+    border-top: 1px solid #9cefea;
+
+}
+
+.celeste:not(:first-child) {
+    border-top: 1px solid #9cefea;
+    /* Agregar borde superior a todos los elementos excepto al primero */
+}
+
+.zoom {
+    transition: transform 0.2s ease-in-out;
+    /* Transición suave */
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* Zoom al 110% cuando se pasa el mouse */
+}
+
+.celeste:hover {
+    background-color: #87CEFA;
+    /* Cambia el color de fondo al pasar el mouse */
+}
